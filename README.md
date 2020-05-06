@@ -6,3 +6,5 @@
 ## Для второй 
 Необходимо передать аргументы "-t 2"
 `gradle run --args="-t 2"`
+## Database
+Поднимается в докере docker run -e POSTGRES_DB=main -e POSTGRES_USER=s1x6 -e POSTGRES_PASSWORD=password -d -p 5432:5432 postgres
